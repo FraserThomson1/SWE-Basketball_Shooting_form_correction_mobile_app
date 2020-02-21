@@ -1,0 +1,53 @@
+PODS:
+  - camera (0.5.7):
+    - Flutter
+  - Flutter (1.0.0)
+  - "permission_handler (4.2.0+hotfix.2)":
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - shared_preferences_macos (0.0.1):
+    - Flutter
+  - TensorFlowLite (1.13.1)
+  - tflite (1.0.4):
+    - Flutter
+    - TensorFlowLite
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
+  - tflite (from `.symlinks/plugins/tflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLite
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  shared_preferences_macos:
+    :path: ".symlinks/plugins/shared_preferences_macos/ios"
+  tflite:
+    :path: ".symlinks/plugins/tflite/ios"
+
+SPEC CHECKSUMS:
+  camera: 0131365d58c8ee3d766b99b4fb8aa8660b84df23
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  permission_handler: de3abfc2aa31a5641a033ac33bc9cd75f4fcb148
+  shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
+  shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
+  TensorFlowLite: 8b9dc4eb32eac0f8cb660c66bca7604da56dcc5a
+  tflite: 85065d77cb81c25ce93e344a5ad40a68fd82407a
+
+PODFILE CHECKSUM: 0ba44ad07df4ab62269dc769727cf0f12b1e453d
+
+COCOAPODS: 1.8.4
