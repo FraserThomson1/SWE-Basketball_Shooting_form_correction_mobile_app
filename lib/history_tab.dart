@@ -37,25 +37,31 @@ List<Widget> genSum(pts){
   List<Widget> b = <Widget>[];
   pts = json.decode(pts);
   if(!pts[0]){
-    bad.add('Feet too wide apart');
+      bad.add('Feet too wide apart');
   }
   if(!pts[1]){
-    bad.add('Body tilts too much when bringing ball down');
+    bad.add('Body bends over too much when bringing the ball down');
   }
   if(!pts[2]){
-    bad.add('hands should be close to chest when bringing ball down');
+    bad.add('Hands should be close to chest when bringing the ball down');
   }
   if(!pts[3]){
-    bad.add('Not jumping vertically');
+    bad.add('Elbow should be close to side of body when shooting');
   }
   if(!pts[4]){
-    bad.add('Arms are not extended out enough');
+    bad.add('Ball should be kept close to body before the shot');
   }
   if(!pts[5]){
-    bad.add('Ball should be released around head');
+    bad.add('Body should be close to vertical to ground when shooting');
   }
   if(!pts[6]){
-    bad.add('Shooting arc too low');
+    bad.add('Extend out your arm upon release and follow through');
+  }
+  if(!pts[7]){
+    bad.add('Ball should be released around your forehead');
+  }
+  if(!pts[8]){
+    bad.add('Shooting arc is too low');
   }
   
   for(int i = 0;i < bad.length;i ++){
